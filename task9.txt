@@ -1,0 +1,205 @@
+package task9roject;
+
+public class fourline {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+ int num=1;
+int i,j;
+ for (i=1; i<=4; i++)
+ 
+ {
+	 for (j=1;j<=i;j++)
+		 
+	 {
+		 System.out.print(num +" ");
+		 num++;
+		 
+	 }
+	 System.out.println();
+ }
+ 
+ 
+ 
+	}
+
+}
+
+o/p
+1 
+2 3 
+4 5 6 
+7 8 9 10 
+
+
+
+package task9roject;
+
+public class multipletab {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int num=5;
+  for(int i=1;i<=20;i++)
+  {
+	  System.out.println(num  +"*" +i + "=" +num*i );
+  }
+	}
+
+}
+
+o/p
+5*16=80
+5*17=85
+5*18=90
+5*19=95
+5*20=100
+
+package task9roject;
+
+public class print5line {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		char a = '*';
+		  
+		System.out.print("   ");
+		  System.out.print(a);
+		  System.out.print(" ");
+		  System.out.println(a);
+		char b = '*';
+		  
+		System.out.print("   ");
+		System.out.print(b);
+		System.out.println(b);
+		
+		 a = '*';
+		 System.out.print("    ");
+		 System.out.println(a);
+		 
+		 b = '*';
+		  
+		 System.out.print("   ");
+			System.out.print(b);
+			System.out.println(b);
+			
+			a = '*';
+			  
+			System.out.print("   ");
+			  System.out.print(a);
+			  System.out.print(" ");
+			  System.out.println(a);
+			
+		 
+		  
+		
+		
+		
+	}
+
+}
+o/p
+   * *
+    **
+     *
+    **
+    * *
+
+package task9roject;
+
+public class studentmark {
+
+	public static void main(String[] args) {
+	
+		// TODO Auto-generated method stub
+		int a =100;
+  if ( a >100)
+  {
+	  System.out.println("S");
+  }
+  else if (a>90)
+  {
+	  System.out.println("A");
+  }
+  else if (a>89)
+  {
+	  System.out.println("B");
+  }
+  else if (a>79)
+  {
+	  System.out.println("C");
+  }
+  else if (a>69)
+  {
+	  System.out.println("D");
+  }
+  else if (a>59)
+  {
+	  System.out.println("E");
+  }
+  else if (a>50)
+  {
+	  System.out.println("F");
+  }
+  System.out.println();
+}
+	
+	
+}
+ o/p
+A
+
+package task9roject;
+
+public class task1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a =20;
+		if (a <18)
+		{
+			System.out.println("String is a palindrome");
+		}
+	
+		if (a> 18)
+	 
+	       
+		{
+			System.out.println("String is not palindrome");
+		}
+	}
+
+}
+
+o/p
+String is not palindrome
+
+package task9roject;
+
+public class whileloop {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int i=1;
+while (i<=10)
+{
+	System.out.println(i);
+	i++;
+}
+	
+	}
+
+}
+
+o/p
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
